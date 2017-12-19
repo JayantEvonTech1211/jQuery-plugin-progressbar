@@ -1,5 +1,7 @@
 # jQuery-plugin-progressbar
 
+This is a fork of yxfanxiao's jQuery-plugin-progressbar to add support for background image.
+
 a simple jQuery plugin ---  dynamic loading progress bar
 
 ## screenshot
@@ -28,12 +30,14 @@ firstly, you need to download jQuery-plugin-progressbar.js & jQuery-plugin-progr
 	* data-percent (百分比数)
 	* data-duration (转圈的时长)
 	* data-color (进度条背景颜色，进度条颜色)
+	* data-backgroundImage
 * you can change default parameters in css.scss
 	* $circle-size: 100px (圆的直径)
 	* $background-color: #b3cef6 (进度条背景颜色)
 	* $progress-color: #4b86db (进度条颜色)
 	* $percent: 75 (百分比数)
 	* $duration: 2s (转圈的时长)
+	* $backgroundImage: ''
 
 
 ## a problem
